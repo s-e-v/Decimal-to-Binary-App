@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sev's Decimal to Binary Converter</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
@@ -16,11 +16,18 @@
             color: white;
             border-radius: 10px;
         }
+        h4 {
+            color: rgb(170, 21, 21);
+        }
     </style>    
 </head>
 <body>
     <div class="container">
-        <h2>Sev's Decimal to Binary Converter</h1><br>
+        <h2><strong>Sev's Decimal to Binary Converter</strong></h1><br>
+        <div id="error">
+            <img src="warning.png">
+            <h4></h4>
+        </div>
     </div>
     <div class="container">
         <label for="decimal">Enter a decimal number:</label><br>
