@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    padding-top: 50px;
+}
+input[type=text] {
+    background: rgb(59, 59, 59);
+    color: white;
+    border-radius: 10px;
+}
+h4 {
+    color: rgb(170, 21, 21);
+}
+#binary {
+    width: 300px;
+}
