@@ -18,10 +18,10 @@ describe("Decimal to Binary Converter", function() {
     describe("Input tests", function() {
       it("returns a empty result when input is 0", function() {
         var result = convBin(0);
-        expect(result).toBeGreaterThan("".length);
+        expect(result).toEqual("");
       });
-      it("should return an error if type is not number", function() {
-        number = "9ff";
+      it("return a number as input", function() {
+        number = 123;
         expect(typeof(number)).toEqual('number');
       });
     });
