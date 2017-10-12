@@ -16,7 +16,7 @@ describe("Decimal to Binary Converter", function() {
     });
 
     describe("Input tests", function() {
-      it("should return an error if 0 decimal is entered", function() {
+      it("returns a empty result when input is 0", function() {
         var result = convBin(0);
         expect(result).toBeGreaterThan("".length);
       });
